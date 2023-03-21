@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.__cards{
+    border-radius: 5px;
+   padding: 6px !important;
+    margin-bottom: 4rem;
+   border: 1px solid black;
+    height:35vh;
+    width: 16vw;
+    background-color: lightgray;
+   
+    color: black;
+    overflow: hidden;
+
+    
+}
+.__cards:hover{
+    transition: .2s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.cards{
+margin-top: 7rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 60vw;
+margin-left: 17rem;
+
+/* background-color: black; */
+
+}
+body{
+background-color: white;
+}
+/* #fetchDT{
+margin-top: 6px ;
+margin-bottom: 6px;
+margin-left: 15px;
+padding: 10px 35px;
+border-radius: 9px;
+background-color:brown;
+color: white;
+font-size: medium;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+
+}
+#fetchDT:hover{
+
+box-shadow: 2px 2px 4px 1px black;
+} */
+
+.Buttons{
+  background-color: lightseagreen;
+display: flex;
+justify-content: space-between;
+}
+#search{
+padding-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 30px;
+  width: 200px;
+}
+#searchbar{
+margin-top: 6px ;
+margin-bottom: 6px;
+margin-left: 15px;
+margin-right: 20px;
+padding: 10px 35px;
+border-radius: 9px;
+background-color:#fd0e35;
+color: white;
+font-size: medium;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+}
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.pagination a {
+  color: white;
+  border: 1px solid black;
+  background-color: orangered;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  outline: none;
+  border-radius: .5rem;
+  padding-left: 18px;
+  margin: .5rem;
+
+}
+.page{
+
+  list-style-type: none;
+}
+.pgn{
+ 
+  display: flex;
+  margin-left: 30rem;
+}
+.btns{
+  background-color: #4CAF50 !important;
+
+}

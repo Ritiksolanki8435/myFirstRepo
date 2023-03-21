@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'josefin';
+    
+}
+body{
+    position: relative;
+    background-color:lightcyan
+}
+.main2{
+    border-radius: 10px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0);
+    background:yellow;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 50vh;
+    width: 40vw;
+  
+
+    left:30%;
+    margin-top:10%;
+    
+
+  }
+#head{
+text-align: center;
+padding-top: 60px;
+}
+#login{
+text-align: center;
+margin-top: 60px;
+}
+input{
+height: 6.5vh;
+width: 30vw;
+margin:5px;
+border-radius: 7px;
+
+}
+button{
+margin-top:10px;
+padding: 13px 38px;  
+border-radius: 20px;
+border: none;
+background-color: blueviolet;
+color: white;
+font-weight: bolder;
+
+}
+input:hover{
+box-shadow:   0 2px 6px 0 rgba(0, 0, 0);
+
+}
+button:hover{
+
+box-shadow:   0 4px 8px 0 rgba(0, 0, 0);
+}

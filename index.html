@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: lightgray;
+            overflow-y: hidden;
+        }
+        .main{
+            position: absolute;
+            top: 10%;
+        
+            left:35%;
+           
+            background: #FFFFFF;
+            height: 67%vh;
+            width: 30%vw ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        #heading{
+            text-align: center;
+            padding-top: 40px;
+            font-weight: lighter;
+        }
+        #para{
+            text-align: center;
+            padding-top: 40px;
+            
+        }
+        #name{
+            height: 43px;
+            width: 208px
+        }
+        #lastname{
+            margin-left: 15px;
+            height: 43px;
+            width: 208px;
+        }
+        #email{
+            height: 43px;
+            width: 440px;
+        }
+        #pass{
+            height: 43px;
+            width: 440px;
+        }
+        #cpass{
+            height: 43px;
+            width: 440px;
+        }
+        #myform{
+            padding: 45px;
+        }
+        #Rbtn{
+            height: 53px;
+            width: 440px;
+            background: rgb(57, 205, 57);
+            color: white;
+            margin-top:20px;
+            font-size: medium;
+
+        }
+        button:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        input{
+            padding: 10px;
+            margin: 5px
+        }
+        #btn3{
+            font-weight: bolder;
+            font-size: medium;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        input:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        </style>
+       
+</head>
+<body>
+    <div class="main">
+        <h1 id="heading"> Register</h1>
+        <p id="para"> Create your account.it's free and only takes a minut</p>
+
+        <form id="myform"   >
+          <input type="text"  id="name" placeholder="First Name" value="" required> 
+          <input type="text" placeholder="Last Name"  id= "lastname" width="100px" value="" required><br><br>
+          <input type="email" id="email" placeholder="Email" value="" required><br<br><br><br>
+          <input type="password" id="pass" placeholder="Password" value="" ><br><span id="messages" style="color: red ; font-size: 10px;"></span><br>
+          <input type="password" id="cpass" placeholder="Confirm Password" value=""  ><br><span id= "mess2" style="color: red ; font-size: 10px;"></span><br><br>
+          <input type="checkbox"  id= " cbox"  required> <span>I Accept The <span style="color: green;">Terms Of Uses</span> And <span style="color: green;">Privacy Policy</span></span><br><br>
+          <button type="submit" id ="Rbtn"  value="Register Now"> Register now</button> 
+     </form>
+     <p style="margin-top:20px"> Already Have An Account? <a href = "login.html" style="color:blue !important ; ">Click</a> To Login</p>
+</div>
+<!-- <p> Already have an account ? <a href="#">sign in</a></p> -->
+<script src="index.js"></script>
+
+</body>
+</html>
